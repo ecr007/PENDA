@@ -1,0 +1,15 @@
+.row{
+	margin-bottom: 30px;
+}
+
+.alert{
+    margin-bottom: 0;
+}
+
+.alert p {
+    margin-bottom: 0;
+}
+
+label{
+	font-weight: bold;
+}
