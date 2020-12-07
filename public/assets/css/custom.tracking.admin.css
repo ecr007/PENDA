@@ -1,0 +1,39 @@
+      .cols-header{
+        background: #767e81; 
+        padding: 13px;
+        color:#fff;
+        font-weight: 700;
+      }
+      .cols-body{
+        font-weight: 600;
+        border-bottom: 1px solid #bdbebf;
+        padding: 10px;
+      }
+      .espacio{
+        padding-top: 20px;
+      }
+      .red{color:red;font-weight: 600;}
+      .btn-TrackingCode{
+        
+        border-radius: 0px;
+      }
+      .input-group-addon{
+        padding: 0px;
+      }
+
+   /*   tr {
+        width: 100%;
+        display: inline-table;
+        table-layout: fixed;
+      }
+
+      table{
+        min-height:300px; 
+        display: -moz-groupbox;
+      }
+      tbody{
+        overflow-y: scroll;
+        height: 235px;
+        width: 100%;
+        position: absolute;
+      }*/

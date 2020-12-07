@@ -1,0 +1,33 @@
+<?php
+
+	return [
+		'str_add'				=> 'Add',
+		'str_area_private'		=> 'Sorry this area is private.',
+		'str_empty_record'		=> 'No records found at this time',
+		'str_error'				=> 'Stopped process',
+		'str_error_delete'		=> 'Error when deleting the record',
+		'str_error_update'		=> 'Editing process stopped',
+		'str_error_recove'		=> 'Record could not be recovered',
+		'str_not_found'			=> 'Record not found',
+		'str_success'			=> 'Operation performed successfully',
+		'str_success_delete'	=> 'Record successfully deleted',
+		'str_success_update'	=> 'Edited successfully',
+		'str_success_recove'	=> 'Record successfully recovered',
+		'str_actions'			=> 'Actions',
+		'str_close'				=> 'Close',
+		'str_view_image'		=> 'View image',
+		'str_edit'				=> 'Edit',
+		'str_delete'			=> 'Delete',
+		'str_goback'			=> 'Go back',
+		'str_name'				=> 'Name',
+		'str_logo'				=> 'Logo',
+		'str_send'				=> 'Send',
+		'str_activated'			=> 'Activated',
+		'str_disabled'			=> 'Disabled',
+		'str_select'			=> 'Select',
+		'str_status'			=> 'Status',
+		'str_gathrid'			=> 'Gathr identifier',
+		'str_noimages'			=> 'No. images',
+		'str_nourls'			=> 'No. URLs',
+		'str_preview_image'		=> 'Preview image'
+	];

@@ -1,0 +1,34 @@
+.navbar{
+        background: #fff;
+        background-image: url("../../assets/img/header_bg.jpg");
+      }
+
+      .navbar-brand{
+        margin: 0px;
+        padding: 0px;
+      }
+      .navbar-brand img{
+        margin: 5px;
+      }      
+      .cols-header{
+        background: #767e81; 
+        padding: 13px;
+        color:#fff;
+        font-weight: 700;
+      }
+      .cols-body{
+        font-weight: 600;
+        border-bottom: 1px solid #bdbebf;
+        padding: 10px;
+      }
+      .espacio{
+        padding-top: 20px;
+      }
+      .red{color:red;font-weight: 600;}
+      .btn-TrackingCode{
+        
+        border-radius: 0px;
+      }
+      .input-group-addon{
+        padding: 0px;
+      }

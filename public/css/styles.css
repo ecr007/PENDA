@@ -1,0 +1,22 @@
+.logo {
+	margin-top: 35px !important;
+	max-width: 300px;
+	margin-bottom: 20px !important;
+}
+
+.page-logo a{
+	color: #fff;
+}
+
+span.loading {
+	position: absolute;
+	top: -8%;
+	right: 10%;
+	font-size: 24px;
+	display: none;
+}
+
+.margin-top-5{margin-top: 5px;} .margin-top-10{margin-top: 10px;} .margin-top-15{margin-top: 15px;} .margin-top-20{margin-top: 20px;} .margin-top-25{margin-top: 25px;} .margin-top-30{margin-top: 30px;} .margin-top-35{margin-top: 35px;} .margin-top-40{margin-top: 40px;} .margin-top-45{margin-top: 45px;} .margin-top-50{margin-top: 50px;} .margin-top-55{margin-top: 55px;} .margin-top-60{margin-top: 60px;} .margin-top-65{margin-top: 65px;} .margin-top-70{margin-top: 70px;} .margin-top-75{margin-top: 75px;} .margin-top-80{margin-top: 80px;} .margin-bottom-5{margin-bottom: 5px;} .margin-bottom-10{margin-bottom: 10px;} .margin-bottom-15{margin-bottom: 15px;} .margin-bottom-20{margin-bottom: 20px;} .margin-bottom-25{margin-bottom: 25px;} .margin-bottom-30{margin-bottom: 30px;} .margin-bottom-35{margin-bottom: 35px;} .margin-bottom-40{margin-bottom: 40px;} .margin-bottom-45{margin-bottom: 45px;} .margin-bottom-50{margin-bottom: 50px;} .margin-bottom-55{margin-bottom: 55px;} .margin-bottom-60{margin-bottom: 60px;} .margin-bottom-65{margin-bottom: 65px;} .margin-bottom-70{margin-bottom: 70px;} .margin-bottom-75{margin-bottom: 75px;} .margin-bottom-80{margin-bottom: 80px;} .padding-top-5{padding-top: 5px;} .padding-top-10{padding-top: 10px;} .padding-top-15{padding-top: 15px;} .padding-top-20{padding-top: 20px;} .padding-top-25{padding-top: 25px;} .padding-top-30{padding-top: 30px;} .padding-top-35{padding-top: 35px;} .padding-top-40{padding-top: 40px;} .padding-top-45{padding-top: 45px;} .padding-top-50{padding-top: 50px;} .padding-top-55{padding-top: 55px;} .padding-top-60{padding-top: 60px;} .padding-top-65{padding-top: 65px;} .padding-top-70{padding-top: 70px;} .padding-top-75{padding-top: 75px;} .padding-top-80{padding-top: 80px;} .padding-bottom-5{padding-bottom: 5px;} .padding-bottom-10{padding-bottom: 10px;} .padding-bottom-15{padding-bottom: 15px;} .padding-bottom-20{padding-bottom: 20px;} .padding-bottom-25{padding-bottom: 25px;} .padding-bottom-30{padding-bottom: 30px;} .padding-bottom-35{padding-bottom: 35px;} .padding-bottom-40{padding-bottom: 40px;} .padding-bottom-45{padding-bottom: 45px;} .padding-bottom-50{padding-bottom: 50px;} .padding-bottom-55{padding-bottom: 55px;} .padding-bottom-60{padding-bottom: 60px;} .padding-bottom-65{padding-bottom: 65px;} .padding-bottom-70{padding-bottom: 70px;} .padding-bottom-75{padding-bottom: 75px;} .padding-bottom-80{padding-bottom: 80px;}
+
+.display-none{display: none;}
+.display-block{display: block;}

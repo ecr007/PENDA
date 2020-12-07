@@ -1,0 +1,107 @@
+.loading {
+  position: absolute;
+  top: -8%;
+  right: 10%;
+  font-size: 24px;
+  display: none;
+}
+label{font-weight: bold;}
+.btn-des-general{float:right;margin-bottom:15px}
+.buscador-form{margin-bottom:15px}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.input-lg{height:45px}
+}
+.no-margin{margin-bottom:0}
+.inputEnviar{margin-top:10px;margin-bottom:10px}
+.inter{margin-top:12px}
+.contProductos{clear:both;margin-bottom:10px;overflow:hidden}
+.contButton{text-align:right;border-top:1px solid #ccc;padding-top:12px;margin-top:20px}
+.contButton h3{margin:0;margin-bottom:12px}
+.ui-helper-hidden-accessible{display:none}
+.title-login{color:#DBDBDB}
+.clientesTable .input-small{height:23px;position:absolute}
+.productos{margin-bottom:25px}
+.titleCorreos{background:#428bca;color:#fff;padding:5px 16px;border-radius:3px}
+.titleLLamadas{background:#5bc0de;color:#fff;padding:5px 16px;border-radius:3px}
+.accordion-toggle{display:block}
+.creadorInter{float:right}
+.clear{clear:both}
+.loading_adminType{font-size:24px;display:none;position:absolute;top:17px;right:34px;z-index:9}
+.ocultar{display:none}
+.contentSeccionesDatos{display:none}
+.loading_adminCreate{font-size:24px;margin-left:10px;position:relative;top:6px;display:none}
+.radio-inline{padding-left:0!important}
+.contentFecha input{background:url(../img/calendar.png) 95% center no-repeat;cursor:pointer}
+.contentPageAdmin{padding:0 10px}
+.contText{margin:0;margin-bottom:20px}
+.contText span{font-size:16px;float:right;display:block;margin-top:10px}
+.vinculadoOk{display: none;}
+.bloke {
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 15px;
+}
+.oculto{display: none;}
+
+.header .page-logo {
+  width: 280px;
+}
+
+h4.logo {
+  margin-top: 13px;
+}
+
+h4.logo a {
+  color: #fff;
+}
+
+.loading-empresa{
+  right: 5%;
+  top: 58%;
+    position: absolute;
+  display: none;
+}
+
+.loading-empresa i{
+  font-size: 24px !important;
+}
+
+.float-right{float: right;}
+
+.leyenda {
+  margin-bottom: 20px;
+}
+
+.leyenda span {
+  margin-right: 4px;
+}
+
+.radio-inline, .checkbox-inline{
+  padding-left: 0;
+}
+
+.radio input[type=radio],
+.radio-inline input[type=radio],
+.checkbox input[type=checkbox],
+.checkbox-inline input[type=checkbox]{
+  margin-left: 0;
+  margin-right: 6px;
+  position: static;
+  opacity: 1 !important;
+}
+
+/**
+ * Vista de impresión
+ */
+@media print {
+    .noPrint{
+      display: none;
+    }
+
+    .portlet{
+      border:none;
+    }
+
+    .form .form-body{
+      padding: 0;
+    }
+}
