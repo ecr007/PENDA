@@ -22,8 +22,25 @@
     <link href="{{asset('assets/css/plugins.css')}}" rel="stylesheet" type="text/css"/>
     <link href="{{asset('assets/css/themes/default.css')}}" rel="stylesheet" type="text/css" id="style_color"/>
     <link href="{{asset('assets/css/pages/profile.css')}}" rel="stylesheet" type="text/css"/>
-    <link href="{{asset('assets/plugins/password_strength/password_strength.css')}}?ver=1.0" rel="stylesheet" type="text/css"/>
-    <link href="{{asset('assets/css/jquery.timepicker.css')}}" rel="stylesheet" type="text/css"/>
+    <link href="{{asset('assets/plugins/datatable/media/css/dataTables.bootstrap.css')}}" rel="stylesheet" type="text/css"/>
+
+    <link rel="apple-touch-icon" sizes="57x57" href="{{asset('images/iconos/apple-icon-57x57.png')}}">
+	<link rel="apple-touch-icon" sizes="60x60" href="{{asset('images/iconos/apple-icon-60x60.png')}}">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{asset('images/iconos/apple-icon-72x72.png')}}">
+	<link rel="apple-touch-icon" sizes="76x76" href="{{asset('images/iconos/apple-icon-76x76.png')}}">
+	<link rel="apple-touch-icon" sizes="114x114" href="{{asset('images/iconos/apple-icon-114x114.png')}}">
+	<link rel="apple-touch-icon" sizes="120x120" href="{{asset('images/iconos/apple-icon-120x120.png')}}">
+	<link rel="apple-touch-icon" sizes="144x144" href="{{asset('images/iconos/apple-icon-144x144.png')}}">
+	<link rel="apple-touch-icon" sizes="152x152" href="{{asset('images/iconos/apple-icon-152x152.png')}}">
+	<link rel="apple-touch-icon" sizes="180x180" href="{{asset('images/iconos/apple-icon-180x180.png')}}">
+	<link rel="icon" type="image/png" sizes="192x192"  href="{{asset('images/iconos/android-icon-192x192.png')}}">
+	<link rel="icon" type="image/png" sizes="32x32" href="{{asset('images/iconos/favicon-32x32.png')}}">
+	<link rel="icon" type="image/png" sizes="96x96" href="{{asset('images/iconos/favicon-96x96.png')}}">
+	<link rel="icon" type="image/png" sizes="16x16" href="{{asset('images/iconos/favicon-16x16.png')}}">
+	<link rel="manifest" href="{{asset('images/iconos/manifest.json')}}">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="{{asset('images/iconos/ms-icon-144x144.png')}}">
+	<meta name="theme-color" content="#ffffff">
 
 	<!-- Styles -->
 	<link href="{{ asset('css/styles.css') }}?ver={{env('APP_ASSETS_VERSION')}}" rel="stylesheet">
@@ -35,7 +52,7 @@
 	    <div class="header-inner">
 	        
 	        <div class="page-logo">
-	            <h4> <a href="{{ route('dashboard') }}">{{env('APP_NAME')}}</a></h4>
+	            <h4> <a href="{{ route('transacciones') }}">{{env('APP_NAME')}}</a></h4>
 	        </div>
 
 	        <a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -46,7 +63,7 @@
 	            <li class="dropdown user">
 	                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
 	                <!-- <img alt="" src="assets/img/avatar3_small.jpg"/> -->
-	                <span class="username">Welcome {{Auth::user()->firstname}} {{Auth::user()->lastname}}</span>
+	                <span class="username">Cuenta: {{Auth::user()->firstname}} {{Auth::user()->lastname}}</span>
 	                <i class="fa fa-angle-down"></i>
 	                </a>
 	                <ul class="dropdown-menu">
@@ -95,6 +112,9 @@
 	<script src="{{asset('assets/plugins/jquery-migrate-1.2.1.min.js')}}" type="text/javascript"></script>
 	<script src="{{asset('assets/plugins/bootstrap/js/bootstrap.min.js')}}" type="text/javascript"></script>
 	<script src="{{asset('assets/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js')}}" type="text/javascript"></script>
+	<script src="{{asset('assets/plugins/datatable/media/js/jquery.dataTables.min.js')}}" type="text/javascript"></script>
+	<script src="{{asset('assets/plugins/datatable/media/js/dataTables.bootstrap.min.js')}}" type="text/javascript"></script>
+	
 	<script src="{{asset('assets/plugins/jquery-slimscroll/jquery.slimscroll.min.js')}}" type="text/javascript"></script>
 	<script src="{{asset('assets/plugins/jquery.blockui.min.js')}}" type="text/javascript"></script>
 	<script src="{{asset('assets/scripts/app.js')}}?ver={{env('APP_ASSETS_VERSION')}}"></script>

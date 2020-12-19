@@ -26,7 +26,7 @@ class Users extends Seeder
         $user->lastname = 'Cuevas';
         $user->slug = Str::slug($user->firstname.' '.$user->lastname);
         $user->nickname = 'ever';
-        $user->email = 'ecuevas@afterimage.com.do';
+        $user->email = 'evercuevas1000@gmail.com';
         $user->phone = 809;
         $user->country = 'DO';
         $user->password = Hash::make('admin');

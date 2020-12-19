@@ -14,7 +14,7 @@
         <div class="input-icon">
             <i class="fa fa-user"></i>
 
-            <input id="email" type="email" class="form-control placeholder-no-fix @error('email') is-invalid @enderror" name="email" value="{{ $email ?? old('email') }}" required placeholder="{{ __('E-Mail Address') }}">
+            <input id="email" type="email" class="form-control placeholder-no-fix @error('email') is-invalid @enderror" name="email" value="{{ $email ?? old('email') }}" required placeholder="Correo electrónico">
         </div>
 
         @error('email')
@@ -29,7 +29,7 @@
 
             <i class="fa fa-lock"></i>
 
-            <input id="password" type="password" class="form-control placeholder-no-fix @error('password') is-invalid @enderror" name="password" required autofocus placeholder="{{ __('Password') }}">
+            <input id="password" type="password" class="form-control placeholder-no-fix @error('password') is-invalid @enderror" name="password" required autofocus placeholder="Contraseña">
         </div>
 
         @error('password')
@@ -44,7 +44,7 @@
 
             <i class="fa fa-lock"></i>
 
-            <input id="password-confirm" type="password" class="form-control placeholder-no-fix @error('password_confirmation') is-invalid @enderror" name="password_confirmation" required placeholder="{{ __('Confirm Password') }}">
+            <input id="password-confirm" type="password" class="form-control placeholder-no-fix @error('password_confirmation') is-invalid @enderror" name="password_confirmation" required placeholder="Confirmar contraseña">
         </div>
 
         @error('password')
@@ -56,7 +56,7 @@
 
 
     <div class="form-actions">
-        <button type="submit" class="btn btn-primary">{{ __('Reset Password') }}</button>
+        <button type="submit" class="btn btn-primary">Recuperar</button>
     </div>
 </form>
                
