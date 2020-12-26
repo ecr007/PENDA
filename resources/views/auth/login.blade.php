@@ -12,7 +12,7 @@
             <div class="input-icon">
                 <i class="fa fa-user"></i>
 
-                <input id="email" type="email" class="form-control placeholder-no-fix @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Correo electrónico">
+                <input id="email" type="email" class="form-control placeholder-no-fix @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="Nombre de usuario">
             </div>
 
             @error('email')
